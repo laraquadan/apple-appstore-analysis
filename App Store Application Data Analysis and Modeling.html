@@ -13115,7 +13115,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[105]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13145,7 +13145,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[105]:</div>
 
 
 
@@ -13321,7 +13321,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
@@ -13337,7 +13337,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[106]:</div>
 
 
 
@@ -13355,8 +13355,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>CRISP-DM (Cross Industry Standard Process for Data Mining)</strong></p>
-<blockquote><p><strong><em>Understanding the Business:</em></strong>
+<p><strong>CRISP-DM (Cross Industry Standard Process for Data Mining)</strong><br/>
+<strong><em>Business Understanding:</em></strong>
 Now a days people spend alot of time using their smart phones and tablets. 80% of this time is spent on mobile apps. These apps vary widely from being simple entertainment apps like games to more sophisticated apps that help the users accomplish thier buisiness easily and effectively like finance apps.
 For corporates mobile apps are so much important to their business environment. No matter what is the business, a mobile app can help corporates get and retain customers. 
 This grawing interest in mobile applications made it a thriving market, with more apps made available for users every day. This made it challenging for developers to choose the right app. Developers need to find:</p>
@@ -13367,7 +13367,6 @@ This grawing interest in mobile applications made it a thriving market, with mor
 <li>What app features contribute more in users satisfaction hence higher user rating?</li>
 <li>What is the expected users rating for thier new mobile application?</li>
 </ul>
-</blockquote>
 
 </div>
 </div>
@@ -13375,7 +13374,8 @@ This grawing interest in mobile applications made it a thriving market, with mor
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>To be able to answer those questions and similar questions, the Mobile App store dataset is used. This data set contains 11100 Apple iOS mobile application details. The data was extracted from the iTunes Search API at the Apple Inc website. This dataset became a valuable dataset for developers who want to make trending apps for the ios app store. It helps better understand the users of the iPhone and iPad; their needs and preferences regarding their prefered apps.</p>
+<p><strong><em>Data Understanding:</em></strong>
+To be able to answer those questions and similar questions, the Mobile App store dataset is used. This data set contains 11100 Apple iOS mobile application details. The data was extracted from the iTunes Search API at the Apple Inc website. This dataset became a valuable dataset for developers who want to make trending apps for the ios app store. It helps better understand the users of the iPhone and iPad; their needs and preferences regarding their prefered apps.</p>
 
 </div>
 </div>
@@ -13409,7 +13409,7 @@ This grawing interest in mobile applications made it a thriving market, with mor
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -13425,7 +13425,7 @@ This grawing interest in mobile applications made it a thriving market, with mor
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[107]:</div>
 
 
 
@@ -13617,7 +13617,7 @@ The total number of applications in the sample dataset is 11100. To see how this
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">],</span><span class="n">facecolor</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
@@ -13670,7 +13670,7 @@ seaborn scatter plot is used in the following two plots to display these relatio
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[109]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_size</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -13715,7 +13715,7 @@ seaborn scatter plot is used in the following two plots to display these relatio
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[110]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Copy categories &#39;genres&#39; of highest demand</span>
@@ -13777,7 +13777,7 @@ To display the relationship between app prime genre and user ratings, seaborn bo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">15</span><span class="p">,</span><span class="mi">15</span><span class="p">],</span> <span class="n">facecolor</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
@@ -13834,7 +13834,7 @@ To display the relationship between app prime genre and user ratings, seaborn bo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[112]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">6</span><span class="p">],</span> <span class="n">facecolor</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
@@ -13901,7 +13901,7 @@ To display the relationship between app prime genre and user ratings, seaborn bo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">7</span><span class="p">],</span> <span class="n">facecolor</span><span class="o">=</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
@@ -13970,7 +13970,7 @@ To be able to answer this question, first we need to find out the percentage of 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_price</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -14037,7 +14037,7 @@ But how this affect the user rating? The plot below, displays the value for the 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_rating</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -14101,7 +14101,7 @@ If a developer decides on making a paid app, it might be useful to look at the p
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[116]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">7</span><span class="p">])</span>
@@ -14161,7 +14161,7 @@ In order to find the effect of the features on the user ratings, seaborn heatmap
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[117]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">[</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">])</span>
@@ -14213,17 +14213,26 @@ So an App developer needs to support as many devices as possible, share at least
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong><em>Preparing the Data:</em></strong><br>
-The first step in preparing the data for modeling is to drop the currency column since all the data in this field reads USD, and drop the track_name column since the id column is enough to identify each app.</p>
+If a developer has a new app idea and want to publish it on the App Store, he would like to predict how good his new app can do, in other words, what the user rating will be even before starting in the development process? to answer his question, Linear regression model can be developed and trained using the dataset in our hands, but first the data in the dataset should be prepared for the model.<br> Linear regression model doesn't accept null values in the dataset, Categorical columns should be expanded to multiple boolean columns, one for each category in each categorical column, moreover, any columns with no useful information for training should be dropped from the dataset.<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The first step in preparing the data for modeling is to drop the currency column since all the data in this field reads USD, and drop the track_name column since the id column is enough to identify each app.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[118]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;track_name&#39;</span><span class="p">,</span><span class="s1">&#39;currency&#39;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Delete the track_name and currency columns</span>
+<span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;track_name&#39;</span><span class="p">,</span><span class="s1">&#39;currency&#39;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -14237,7 +14246,7 @@ The first step in preparing the data for modeling is to drop the currency column
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[118]:</div>
 
 
 
@@ -14389,10 +14398,11 @@ The first step in preparing the data for modeling is to drop the currency column
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[119]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># find the columns that has null values</span>
+<span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14405,7 +14415,7 @@ The first step in preparing the data for modeling is to drop the currency column
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[24]:</div>
+    <div class="prompt output_prompt">Out[119]:</div>
 
 
 
@@ -14453,10 +14463,11 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[120]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;user_rating_ver&#39;</span><span class="p">]</span> <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">])</span> <span class="k">else</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#foreach row if ver value is null fill it with the corresponding value in the user_rating_ver column </span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;user_rating_ver&#39;</span><span class="p">]</span> <span class="k">if</span> <span class="n">pd</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">])</span> <span class="k">else</span> <span class="n">x</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14474,7 +14485,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[121]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#find the mode for the cont_rating column</span>
@@ -14490,10 +14501,12 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[122]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;cont_rating&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">cont_rating_mode</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#foreach row if the the count_rating is null fill it with the mode</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">&#39;cont_rating&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">cont_rating_mode</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1">#foreach row if the the prime_genre is null fill it with the mode</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;prime_genre&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">prime_genre_mode</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
@@ -14504,10 +14517,11 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[123]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Make sure no more null values exist in the dataset</span>
+<span class="n">df</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -14520,7 +14534,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[123]:</div>
 
 
 
@@ -14560,10 +14574,20 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[124]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">parse_version</span><span class="p">(</span><span class="n">item</span><span class="p">,</span><span class="n">length</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Convert version to the format major.minor.patch </span>
+
+<span class="sd">    Args:</span>
+<span class="sd">    item: string. The version in any format. </span>
+<span class="sd">    length: int. if length = 3 returns the version in the major.minor.patch, if length = 2 returns </span>
+<span class="sd">            version in the major.minor format</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">    parse_version: string. The new parsed version string in the requested format.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">try</span><span class="p">:</span>
         <span class="n">str_item</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">item</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">,</span><span class="s1">&#39;.&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">rstrip</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
         <span class="n">str_item</span> <span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">&quot;[^0-9]&quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="n">str_item</span><span class="p">)</span> 
@@ -14580,9 +14604,11 @@ dtype: int64</pre>
     <span class="k">except</span><span class="p">:</span>
         <span class="nb">print</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
 
+<span class="c1">#parse the ver column to the required format</span>
 <span class="n">result</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;ver&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">parse_version</span><span class="p">,</span><span class="n">length</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1">#create a new dataframe splitting the ver column to three new columns &#39;ver_major&#39;,&#39;ver_minor&#39;,&#39;ver_patch&#39;</span>
 <span class="n">df_result</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">result</span><span class="p">),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;ver_major&#39;</span><span class="p">,</span><span class="s1">&#39;ver_minor&#39;</span><span class="p">,</span><span class="s1">&#39;ver_patch&#39;</span><span class="p">])</span>
-
+<span class="c1">#drop the original ver column and replace it with the three new columns &#39;ver_major&#39;,&#39;ver_minor&#39;,&#39;ver_patch&#39;</span>
 <span class="n">df_final</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span> <span class="n">df_result</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
@@ -14593,7 +14619,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[125]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_final</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;ver&quot;</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14610,7 +14636,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[125]:</div>
 
 
 
@@ -14766,12 +14792,14 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[126]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">result_2</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;user_rating_ver&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">parse_version</span><span class="p">,</span><span class="n">length</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#parse the user_rating_ver column to the required format</span>
+<span class="n">result_2</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;user_rating_ver&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">parse_version</span><span class="p">,</span><span class="n">length</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="c1">#create a new dataframe splitting the user_rating_ver column to two new columns &#39;user_rating_ver_major&#39;,&#39;user_rating_ver_minor&#39;</span>
 <span class="n">df_result_2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">result_2</span><span class="p">),</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;user_rating_ver_major&#39;</span><span class="p">,</span><span class="s1">&#39;user_rating_ver_minor&#39;</span><span class="p">])</span>
-
+<span class="c1">#drop the original user_rating_ver column and replace it with the new columns &#39;user_rating_ver_major&#39;,&#39;user_rating_ver_minor&#39;</span>
 <span class="n">df_final_2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_final</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span> <span class="n">df_result_2</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
@@ -14782,7 +14810,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[127]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_final_2</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">&quot;user_rating_ver&quot;</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14799,7 +14827,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[32]:</div>
+    <div class="prompt output_prompt">Out[127]:</div>
 
 
 
@@ -14842,10 +14870,20 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[128]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_dummy_df</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">cat_cols</span><span class="p">,</span> <span class="n">dummy_na</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Create Dummy columns from category columns, for each category value a new column is added. </span>
+<span class="sd">    if the value of the column in the row equals this category the new column value is 1, else it is 0.   </span>
+
+<span class="sd">    Args:</span>
+<span class="sd">    df: DataFrame. The dataframe to create the dummy columns for. </span>
+<span class="sd">    cat_cols: list(string)). A list of the names of the category columns.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">    df: the dataframe after dropping the category columns and replacing it with the dummy columns.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">cat_cols</span><span class="p">:</span>
         <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">col</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">],</span> <span class="n">prefix</span><span class="o">=</span><span class="n">col</span><span class="p">,</span> <span class="n">prefix_sep</span><span class="o">=</span><span class="s1">&#39;_&#39;</span><span class="p">,</span> <span class="n">drop_first</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">dummy_na</span><span class="o">=</span><span class="n">dummy_na</span><span class="p">)],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">df</span>
@@ -14858,7 +14896,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[129]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cat_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;cont_rating&quot;</span><span class="p">,</span> <span class="s1">&#39;prime_genre&#39;</span><span class="p">]</span>
@@ -14881,17 +14919,19 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The Linear Regression learning algorithm is used to predict the user rating based of the application details. The features data frame X and y which contains the user ratings are split into training set and test set.</p>
+<p>Now its time to develop the The Linear Regression learning algorithm that can be used to predict the user rating based on the application details. The features data frame X and y which contains the user ratings are split into training set and test set.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[130]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">df_dummy</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;user_rating&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#The features dataset</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">df_dummy</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;user_rating&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1">#The output </span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">df_dummy</span><span class="p">[</span><span class="s1">&#39;user_rating&#39;</span><span class="p">]</span>
 </pre></div>
 
@@ -14902,13 +14942,18 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">test_size</span> <span class="o">=</span> <span class="o">.</span><span class="mi">2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#split the data into training dataset and testing dataset </span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">test_size</span> <span class="o">=</span> <span class="o">.</span><span class="mi">2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="c1">#create the linear regression model</span>
 <span class="n">lm_model</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">(</span><span class="n">normalize</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1">#train the model using the training dataset</span>
 <span class="n">lm_model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="c1">#predict the output using the test dataset</span>
 <span class="n">y_test_preds</span> <span class="o">=</span> <span class="n">lm_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="c1">#predit the output using the train dataset</span>
 <span class="n">y_train_preds</span> <span class="o">=</span><span class="n">lm_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
 </pre></div>
 
@@ -14920,7 +14965,7 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong><em>Model Evaluation</em></strong><br>
+<p><strong><em>Evaluate the Results:</em></strong><br>
 To evaluate the model the r2 scores for the training data and the test data are evaluted.</p>
 
 </div>
@@ -14928,10 +14973,11 @@ To evaluate the model the r2 scores for the training data and the test data are 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_score</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_train_preds</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#compute the r2 score for the train dataset</span>
+<span class="n">train_score</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span><span class="n">y_train_preds</span><span class="p">)</span>
 <span class="n">train_score</span>
 </pre></div>
 
@@ -14945,7 +14991,7 @@ To evaluate the model the r2 scores for the training data and the test data are 
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[37]:</div>
+    <div class="prompt output_prompt">Out[132]:</div>
 
 
 
@@ -14962,10 +15008,11 @@ To evaluate the model the r2 scores for the training data and the test data are 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test_score</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">y_test_preds</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#compute the r2 score for the test dataset</span>
+<span class="n">test_score</span> <span class="o">=</span> <span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span><span class="n">y_test_preds</span><span class="p">)</span>
 <span class="n">test_score</span>
 </pre></div>
 
@@ -14979,7 +15026,7 @@ To evaluate the model the r2 scores for the training data and the test data are 
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[38]:</div>
+    <div class="prompt output_prompt">Out[133]:</div>
 
 
 
@@ -14997,7 +15044,7 @@ To evaluate the model the r2 scores for the training data and the test data are 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The train score is approximatly 0.867 and the test score is 0.866 which is a very good score. Our model is doing a very good job in predicting the user rating and can be used for this purpose. It is expected that the model may be more accurated if more data were collected or more app features presented in the dataset such as the number of app downloads.</p>
+<p>The train score is approximatly 0.867 and the test score is 0.866 which is a very good score. Our model is doing a very good job in predicting the user rating and can be used for this purpose. <br>It is expected that the model may be more accurate if more data were collected or more app features presented in the dataset such as the number of app downloads.</p>
 
 </div>
 </div>
